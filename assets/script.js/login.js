@@ -11,7 +11,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   const pin = inputPin.value;
   console.log(pin);
   // match pin & mobile number
-  if (contactNumber == "01234567890" && pin == "1234") {
+  if (contactNumber == "01804672160" && pin == "1323") {
     alert("login Success");
 
     // window.location.replace("/home.html");
