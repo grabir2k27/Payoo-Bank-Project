@@ -22,6 +22,17 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
          ${bankAccount} 
          at ${new Date()}`);
     setBalance(newBalance);
+    
+    const history = document.getElementById("history-container");
+newHistory.innerHTML = `
+  <div class="transition-card py-5 bgf-base-100">
+    Add Money Success form ${bankAccount} , acc-no ${accno}
+    at ${new data()}
+            </div>
+`;
+ 
+  history.append(newHistory);
+
   } else {
     alert("Invalid Pin");
 
