@@ -24,10 +24,12 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
     setBalance(newBalance);
     
     const history = document.getElementById("history-container");
+
+    const newHistory = document.createElement("div");
 newHistory.innerHTML = `
-  <div class="transition-card py-5 bgf-base-100">
-    Add Money Success form ${bankAccount} , acc-no ${accno}
-    at ${new data()}
+  <div class="transaction-card py-5 bgf-base-100">
+    Add Money Success form ${bankAccount} , acc-no ${accno}  at ${new data()}
+   
             </div>
 `;
  
